@@ -26,5 +26,8 @@
     <ClCompile Include="..\..\..\Visual Studio 2013\Projects\Serialempty\Serialempty\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="randomfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

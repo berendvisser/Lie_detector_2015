@@ -83,6 +83,7 @@
   <ItemGroup>
     <ClCompile Include="..\..\..\Visual Studio 2013\Projects\Serialempty\Serialempty\main.cpp" />
     <ClCompile Include="..\..\..\Visual Studio 2013\Projects\Serialempty\Serialempty\SerialClass.cpp" />
+    <ClCompile Include="randomfile.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
