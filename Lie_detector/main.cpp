@@ -19,7 +19,7 @@ int main(void)
 	//initialize instance serial on 'COM5'.
 	Serial serial(sw);
 
-
+	printf("HALLO IK HEB IETS VERANDERD");
 
 	while (1){
 		printf("function return %d\n", serial.ReadData(c, z));
