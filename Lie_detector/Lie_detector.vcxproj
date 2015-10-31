@@ -78,12 +78,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\Visual Studio 2013\Projects\Serialempty\Serialempty\Serial.h" />
+    <ClInclude Include="Serial.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\Visual Studio 2013\Projects\Serialempty\Serialempty\main.cpp" />
-    <ClCompile Include="..\..\..\Visual Studio 2013\Projects\Serialempty\Serialempty\SerialClass.cpp" />
-    <ClCompile Include="randomfile.cpp" />
+    <ClCompile Include="SerialClass.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
