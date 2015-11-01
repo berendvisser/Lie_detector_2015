@@ -19,7 +19,7 @@ int main(void)
 	//initialize instance serial on 'COM5'.
 	Serial serial(sw);
 
-	printf("HALLO IK HEB IETS VERANDERD");
+	printf("HALLO IK BEN EEN AAP");
 
 	while (1){
 		printf("function return %d\n", serial.ReadData(c, z));
@@ -28,8 +28,6 @@ int main(void)
 		printf("value : %d", value);
 		Sleep(100);
 		system("cls");
-
-
 	}
 
 	system("PAUSE");
