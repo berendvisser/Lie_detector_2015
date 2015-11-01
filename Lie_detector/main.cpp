@@ -18,7 +18,7 @@ int main(void)
 	LPCWSTR sw = stemp.c_str();
 	//initialize instance serial on 'COM5'.
 	Serial serial(sw);
-
+	//timo houdt van aapjes!!!
 	printf("HALLO IK BEN EEN AAP");
 
 	while (1){
